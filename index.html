@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CLICK THIS SHITTY LINK</title>
+    <title>HII KAI</title>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -41,12 +41,25 @@
           <button id="noBtn" onclick="YES()">YES</button>
         `;
       }
-      function GAIN() {
+      function DF() {
         document.body.innerHTML = `
           <h1>DONT TELL ANYONE HA </h1>
-          <h1>NAHUYA GID KO YA</h1>
-          <h1>BUT NOW I GOT THE COURAGE TO CONFESS TO YOU</h1>
-          <button onclick="OMO()">NEXT</button>
+          <h1>EVEN YOUR DIFF PERSONALITY</h1>
+          <h1></h1>
+          <button onclick="OMO()">PROMISE</button>
+          <button id="noBtn" onclick="NO()">NEXT</button>
+         
+          
+        `;
+      }
+
+      function DV() {
+        document.body.innerHTML = `
+          <h1>DONT TELL ANYONE HA </h1>
+          <h1>EVEN YOUR DIFF PERSONALITY</h1>
+          <h1></h1>
+          <button onclick="OMO()">PROMISE</button>
+          
          
           
         `;
@@ -72,12 +85,24 @@
          
         `;
       }
+
+      function OU() {
+        document.body.innerHTML = ` 
+         <h1>DONT TELL ANYONE HA </h1>
+          <h1>NAHUYA GID KO YA</h1>
+          <h1>BUT NOW I GOT THE COURAGE TO CONFESS TO YOU</h1>
+       <button id="noBtn" onclick="HA()">NEXT</button>  
+         
+        `;
+      }
       
       function OUM() {
         document.body.innerHTML = ` 
-         <h1>IF YOU JUST KNOW HOW NERVOUS I AM RN</h1>
-        <h1>PLEASE DONT TELL ANYONE EVEN YOUR OWN DIFF PERSONALITY</h1>
-       <button onclick="GAIN()">NEXT</button>  
+        <h1>DONT TELL ANYONE HA </h1>
+          <h1>NAHUYA GID KO YA</h1>
+          <h1>BUT NOW I GOT THE COURAGE TO CONFESS TO YOU.</h1>
+          
+          <button onclick="DF()">NEXT</button>  
          
         `;
       }
@@ -85,7 +110,16 @@
       function HII() {
         document.body.innerHTML = `
           <h1>I REALLY DONT KNOW HOW TO CONFESS HUHU</h1>
-          <button onclick="OUM()">NEXT</button>
+          <button onclick="DF()">NEXT</button>
+        `;
+      }
+
+      function HA() {
+        document.body.innerHTML = `
+          <h1>DONT TELL ANYONE HA </h1>
+          <h1>NAHUYA GID KO YA</h1>
+          <h1>BUT NOW I GOT THE COURAGE TO CONFESS TO YOU</h1>
+          <button onclick="OMO()">PROMISE</button>
         `;
       }
 
@@ -155,9 +189,11 @@
           
         }else if (noClickCount >= 7 ) {
           document.body.innerHTML = `
-            <h1>HUO HUO LANG GURO</h1>
-          <h1>HAHHAHAHAHAHAHAHAHHAHAHAHH</h1>
-          <button onclick="TRYAGAIN()">LIWATT</button>
+        
+          <h1>DONT TELL ANYONE HA </h1>
+          <h1>EVEN YOUR DIFF PERSONALITY</h1>
+          
+          <button onclick="OMO()">PROMISE</button>
           
             <pre>
               
