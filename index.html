@@ -7,7 +7,7 @@
     <style>
       body {
         font-family: Arial, sans-serif;
-        background-color: #0056d8;
+        background-color: #ff008c;
         color: white;
         text-align: center;
         margin: 0;
@@ -35,53 +35,92 @@
 
       function WILL_YOU_MARRY_ME() {
         document.body.innerHTML = `
-          <h1>KA MOVE ON KANA KAY TONI?</h1>
-          <h1>HAHHAAHHAHAHAHAHAH</h1>
-          <button onclick="YES()">WALA</button>
-          <button id="noBtn" onclick="NO()">OO</button>
+          <h1>DID YOU MADE THE WORD NONCHALANT?</h1>
+          <h1>KY BISKAN MAG INTERACT SIMO D NKO KABALO HUHU</h1>
+          <button onclick="YES()">YES</button>
+          <button id="noBtn" onclick="YES()">YES</button>
         `;
       }
-      function TRYAGAIN() {
+      function GAIN() {
         document.body.innerHTML = `
-          <h1>KA MOVE ON KANA KAY TONI??</h1>
-          <h1></h1>
-          <button onclick="YES()">TI HUO NA AH WALA PA</button>
+          <h1>DONT TELL ANYONE HA </h1>
+          <h1>NAHUYA GID KO YA</h1>
+          <h1>BUT NOW I GOT THE COURAGE TO CONFESS TO YOU</h1>
+          <button onclick="OMO()">NEXT</button>
          
           
         `;
       }
-      
-      function OUM() {
-        document.body.innerHTML = `
-          <h1</h1>
-          <button id="noBtn" onclick="PROMISE()">I PROMISE.</button>
-           <button id="noBtn" onclick="NI()">NO</button>
+
+      function ORI() {
+        document.body.innerHTML = ` 
+         <h1>I LIKE YOU KAI</h1>
+         <h1>I LIKE YOURE SMILE</h1>
+         <h1>I LIKE YOURE PERSONALITY</h1>
+         <h1>             -JHANREY</h1>
+         <h1>:)</h1>
+          
+         
+        `;
+      }
+
+      function OMO() {
+        document.body.innerHTML = ` 
+         <h1>THATS ALL KAI</h1>
+        <h1>I HAVE A CRUSH ON YOU:></h1>
+       <button onclick="ORI()">NEXT</button>  
+         
         `;
       }
       
-      function PROMISE() {
+      function OUM() {
+        document.body.innerHTML = ` 
+         <h1>IF YOU JUST KNOW HOW NERVOUS I AM RN</h1>
+        <h1>PLEASE DONT TELL ANYONE EVEN YOUR OWN DIFF PERSONALITY</h1>
+       <button onclick="GAIN()">NEXT</button>  
+         
+        `;
+      }
+      
+      function HII() {
         document.body.innerHTML = `
-          <h1>KISS MKO:></h1>
-          <h2>HEHEHEHE :)</h2>
+          <h1>I REALLY DONT KNOW HOW TO CONFESS HUHU</h1>
+          <button onclick="OUM()">NEXT</button>
+        `;
+      }
+
+      function IN() {
+        document.body.innerHTML = `
+          
+          <h1>I FOUND YOUR SMILE PRETTY</h1>
+          <button onclick="HII()">NEXT</button>
+          
         `;
       }
       
        function NI() {
         document.body.innerHTML = `
-          <h1>NO CHOICE KA HEHE MWAH!:></h1>
-          <h1>DO YOU PROMISE??</h1>
-          <button id="noBtn" onclick="PROMISE()">I PROMISE.</button>
+          <h1>I LIKE YOU SINCE FIRST GRADING KAI</h1>
           
+          <button onclick="IN()">NEXT</button>
+          
+        `;
+      }
+
+      function NNON() {
+        document.body.innerHTML = `
+          <h1>ARE YOU COMFORTABLE WHEN SOMEONE CONFESS TO YOU?</h1>
+          <h1>THIS IS ACTUALLY AWKWARD</h1>
+        <button onclick="NI()">NEXT</button>
         `;
       }
      
 
       function YES() {
         document.body.innerHTML = `
-          <h1>COMEBACK KMO PWEDI NA </h1>
-          <h2>HAHHAHAHHAHAHAHAHAH</h2>
-          <p></p>
-          <P></p>
+          <h1> KAY KA SUPER NONCHALANT SMO </h1>
+          <h2></h2>
+         <button onclick="NNON()">NEXT</button>
           
           <pre>
            
@@ -139,12 +178,12 @@
     </script>
   </head>
   <body>
-    <h1>YO RAIN</h1>
-    <h2>HAHAHHAHAHAHAHAHAHHAHA</h2>
+    <h1>HI KAI </h1>
+    <h2>I HAVE A QUESTION</h2>
 
     
 
     <!-- Next Button -->
-    <button onclick="WILL_YOU_MARRY_ME()">Next</button>
+    <button onclick="WILL_YOU_MARRY_ME()">NEXT</button>
   </body>
-</html>V
+</html>
